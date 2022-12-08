@@ -1,0 +1,11 @@
+.inner {
+  overflow: hidden;
+
+  img {
+    transition: all 1.5s ease;
+
+    &:hover {
+      transform: scale(1.5);
+    }
+  }
+}
